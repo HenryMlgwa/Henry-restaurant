@@ -1,0 +1,1233 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- 
+    - primary meta tags
+  -->
+  <title>Henry Restaurant</title>
+  <meta name="title" content="Grilli - Amazing & Delicious Food">
+  <meta name="description" content="This is a Restaurant html template made by codewithsadee">
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Forum&display=swap" rel="stylesheet">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- 
+    - preload images
+  -->
+  <link rel="preload" as="image" href="./assets/images/hero-slider-1.jpeg">
+  <link rel="preload" as="image" href="./assets/images/hero-slider-2.jpeg">
+  <link rel="preload" as="image" href="./assets/images/hero-slider-3.jpg">
+
+</head>
+
+<body id="top">
+
+  <!-- 
+    - #PRELOADER
+  -->
+
+  <div class="preload" data-preaload>
+    <div class="circle"></div>
+    <p class="text">Henry Food Restaurant</p>
+  </div>
+
+
+
+
+
+  <!-- 
+    - #TOP BAR
+  -->
+
+  <div class="topbar">
+    <div class="container">
+
+      <address class="topbar-item">
+        <div class="icon">
+          <ion-icon name="location-outline" aria-hidden="true"></ion-icon>
+        </div>
+
+        <span class="span">
+          Henry Food Restaurant, 17 Rue Laplace, Paris 75005, France
+        </span>
+      </address>
+
+      <div class="separator"></div>
+
+      <div class="topbar-item item-2">
+        <div class="icon">
+          <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
+        </div>
+
+        <span class="span">La journée : 11.30 am to 11.00 pm</span>
+      </div>
+
+      <a href="tel:+11234567890" class="topbar-item link">
+        <div class="icon">
+          <ion-icon name="call-outline" aria-hidden="true"></ion-icon>
+        </div>
+
+        <span class="span">+33 123456789</span>
+      </a>
+
+      <div class="separator"></div>
+
+      <a href="mailto:booking@restaurant.com" class="topbar-item link">
+        <div class="icon">
+          <ion-icon name="mail-outline" aria-hidden="true"></ion-icon>
+        </div>
+
+        <span class="span">HryFood@restaurant.com</span>
+      </a>
+
+    </div>
+  </div>
+
+
+
+
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <a href="#" class="logo">
+        <img src="./assets/images/LogoHryRestaurant.png" width="160" height="50" alt="Henry-Home">
+      </a>
+
+      <nav class="navbar" data-navbar>
+
+        <button class="close-btn" aria-label="close menu" data-nav-toggler>
+          <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+        </button>
+
+        <a href="#" class="logo">
+          <img src="./assets/images/LogoHryRestaurant.png" width="160" height="50" alt="Grilli - Home">
+        </a>
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <a href="#home" class="navbar-link hover-underline active">
+              <div class="separator"></div>
+
+              <span class="span">Home</span>
+            </a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#menu" class="navbar-link hover-underline">
+              <div class="separator"></div>
+
+              <span class="span">Menus</span>
+            </a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#about" class="navbar-link hover-underline">
+              <div class="separator"></div>
+
+              <span class="span">A propos de nous</span>
+            </a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#" class="navbar-link hover-underline">
+              <div class="separator"></div>
+
+              <span class="span">Nos Chefs</span>
+            </a>
+          </li>
+
+          <!--li class="navbar-item">
+            <a href="index.php"
+            class="navbar-link hover-underline">
+                          <div class="separator"></div>
+            <span class="span">Se connecter
+            </span>
+            </a>
+            </li-->
+        
+
+          <li class="navbar-item">
+            <a href="#" class="navbar-link hover-underline">
+              <div class="separator"></div>
+
+              <span class="span">Contact</span>
+            </a>
+          </li>
+
+        </ul>
+
+        <div class="text-center">
+          <p class="headline-1 navbar-title">Visitez notre restaurnat</p>
+
+          <address class="body-4">
+            Hry Food Restaurnat, <br>
+            17 Rue Laplace, Paris 75005, France, FRANCE
+          </address>
+
+          <p class="body-4 navbar-text">Ouvert: 11.30 am - 01.30pm et de 07.00pm - 11.00pm</p>
+
+          <a href="mailto:HryRestaurant@food.com" class="body-4 sidebar-link">HryRestaurant@food.com</a>
+
+          <div class="separator"></div>
+
+          <p class="contact-label">Demande de Réservation</p>
+
+          <a href="tel:+88123123456" class="body-1 contact-number hover-underline">
+            +33 234567890
+          </a>
+        </div>
+
+      </nav>
+
+      <a href="#" class="btn btn-secondary">
+        <span class="text text-1">Trouver une table</span>
+
+        <span class="text text-2" aria-hidden="true">Trouver une table</span>
+      </a>
+
+      <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+        <span class="line line-1"></span>
+        <span class="line line-2"></span>
+        <span class="line line-3"></span>
+      </button>
+
+      <div class="overlay" data-nav-toggler data-overlay></div>
+
+    </div>
+  </header>
+
+
+
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="hero text-center" aria-label="home" id="home">
+
+        <ul class="hero-slider" data-hero-slider>
+
+          <li class="slider-item active" data-hero-slider-item>
+
+            <div class="slider-bg">
+              <img src="./assets/images/hero-slider-1.jpeg" width="1880" height="950" alt="" class="img-cover">
+            </div>
+
+            <p class="label-2 section-subtitle slider-reveal">Traditionnel & Hygiénique</p>
+
+            <h1 class="display-1 hero-title slider-reveal">
+              Les délicieux plats <br>
+              pour ceux qui aiment de la bonne nourriture
+            </h1>
+
+            <p class="body-2 hero-text slider-reveal">
+              Venez avec votre famille ou vos amis gouter aux délicieux plats de Hry Food Restaurant
+            </p>
+
+            <a href="#" class="btn btn-primary slider-reveal">
+              <span class="text text-1">Voir le Menu</span>
+
+              <span class="text text-2" aria-hidden="true">Voir le Menu</span>
+            </a>
+
+          </li>
+
+          <li class="slider-item" data-hero-slider-item>
+
+            <div class="slider-bg">
+              <img src="./assets/images/hero-slider-2.jpeg" width="1880" height="950" alt="" class="img-cover">
+            </div>
+
+            <p class="label-2 section-subtitle slider-reveal">Voyager avec de la bonne nourriture</p>
+
+            <h1 class="display-1 hero-title slider-reveal">
+              Les saisons et <br>
+              leurs saveurs
+            </h1>
+
+            <p class="body-2 hero-text slider-reveal">
+              Venez avec vos proches et goutez à nos délicieux plats
+            </p>
+
+            <a href="#" class="btn btn-primary slider-reveal">
+              <span class="text text-1">Voir le Menu</span>
+
+              <span class="text text-2" aria-hidden="true">Voir le Menu</span>
+            </a>
+
+          </li>
+
+          <li class="slider-item" data-hero-slider-item>
+
+            <div class="slider-bg">
+              <img src="./assets/images/hero-slider-3.webp" width="1880" height="950" alt="" class="img-cover">
+            </div>
+
+            <p class="label-2 section-subtitle slider-reveal">Vous aurez l'eau dans la bouche</p>
+
+            <h1 class="display-1 hero-title slider-reveal">
+              Les saveurs et <br>
+              leurs histoires
+            </h1>
+
+            <p class="body-2 hero-text slider-reveal">
+              Venez avec vos et goutez à nos délicieux plats
+            </p>
+
+            <a href="#" class="btn btn-primary slider-reveal">
+              <span class="text text-1">Voir le menu</span>
+
+              <span class="text text-2" aria-hidden="true">Voir le Menu</span>
+            </a>
+
+          </li>
+
+        </ul>
+
+        <button class="slider-btn prev" aria-label="slide to previous" data-prev-btn>
+          <ion-icon name="chevron-back"></ion-icon>
+        </button>
+
+        <button class="slider-btn next" aria-label="slide to next" data-next-btn>
+          <ion-icon name="chevron-forward"></ion-icon>
+        </button>
+
+        <a href="#" class="hero-btn has-after">
+          <img src="./assets/images/Feature icon Hero 6.png" width="48" height="48" alt="booking icon">
+
+          <span class="label-2 text-center span">Réservez une table</span>
+        </a>
+
+      </section>
+
+
+
+
+
+      <!-- 
+        - #Service
+      -->
+
+      <section class="section service bg-black-10 text-center" aria-label="service">
+        <div class="container">
+
+          <p class="section-subtitle label-2">Les Saveurs Royoles</p>
+
+          <h2 class="headline-1 section-title">Nos offres Top</h2>
+
+          <p class="section-text">
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry lorem Ipsum has been the industrys
+            standard dummy text ever.
+          </p>
+
+          <ul class="grid-list">
+
+            <li>
+              <div class="service-card">
+
+                <a href="#" class="has-before hover:shine">
+                  <figure class="card-banner img-holder" style="--width: 285; --height: 336;">
+                    <img src="./assets/images/service-1.jpeg" width="285" height="336" loading="lazy" alt="Breakfast"
+                      class="img-cover">
+                  </figure>
+                </a>
+
+                <div class="card-content">
+
+                  <h3 class="title-4 card-title">
+                    <a href="#">Petit déjeuner</a>
+                  </h3>
+
+                  <a href="#" class="btn-text hover-underline label-2">Voir le Menu</a>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <a href="#" class="has-before hover:shine">
+                  <figure class="card-banner img-holder" style="--width: 285; --height: 336;">
+                    <img src="./assets/images/service-2.jpeg" width="285" height="336" loading="lazy" alt="Appetizers"
+                      class="img-cover">
+                  </figure>
+                </a>
+
+                <div class="card-content">
+
+                  <h3 class="title-4 card-title">
+                    <a href="#">Apéritifs</a>
+                  </h3>
+
+                  <a href="#" class="btn-text hover-underline label-2">Voir le Menu</a>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <a href="#" class="has-before hover:shine">
+                  <figure class="card-banner img-holder" style="--width: 285; --height: 336;">
+                    <img src="./assets/images/service-3.jpeg" width="285" height="336" loading="lazy" alt="Drinks"
+                      class="img-cover">
+                  </figure>
+                </a>
+
+                <div class="card-content">
+
+                  <h3 class="title-4 card-title">
+                    <a href="#">Boissons</a>
+                  </h3>
+
+                  <a href="#" class="btn-text hover-underline label-2">Voir le Menu</a>
+
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+          <img src="./assets/images/shape-1.jpeg" width="246" height="412" loading="lazy" alt="shape"
+            class="shape shape-1 move-anim">
+          <img src="./assets/images/shape-2.jpeg" width="343" height="345" loading="lazy" alt="shape"
+            class="shape shape-2 move-anim">
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #ABOUT
+      -->
+
+      <section class="section about text-center" aria-labelledby="about-label" id="about">
+        <div class="container">
+
+          <div class="about-content">
+
+            <p class="label-2 section-subtitle" id="about-label">Notre histoire</p>
+
+            <h2 class="headline-1 section-title">L'histoire derrière les saveurs</h2>
+
+            <p class="section-text">
+              Lorem Ipsum is simply dummy text of the printingand typesetting industry lorem Ipsum has been the
+              industrys standard dummy text ever since the when an unknown printer took a galley of type and scrambled
+              it to make a type specimen book It has survived not only five centuries, but also the leap into.
+            </p>
+
+            <div class="contact-label">Réservez via un appel téléphonique</div>
+
+            <a href="tel:+33234567890" class="body-1 contact-number hover-underline">+33 234567890</a>
+
+            <a href="#" class="btn btn-primary">
+              <span class="text text-1">En savoir plus</span>
+
+              <span class="text text-2" aria-hidden="true">En savoir plus</span>
+            </a>
+
+          </div>
+
+          <figure class="about-banner">
+
+            <img src="./assets/images/about-banner.jpeg" width="570" height="570" loading="lazy" alt="about banner"
+              class="w-100" data-parallax-item data-parallax-speed="1">
+
+            <div class="abs-img abs-img-1 has-before" data-parallax-item data-parallax-speed="1.75">
+              <img src="./assets/images/about-abs-image.jpeg" width="285" height="285" loading="lazy" alt=""
+                class="w-100">
+            </div>
+
+            <div class="abs-img abs-img-2 has-before">
+              <img src="./assets/images/badge-2.png" width="133" height="134" loading="lazy" alt="">
+            </div>
+
+          </figure>
+
+          <img src="./assets/images/shape-3.webp" width="197" height="194" loading="lazy" alt="" class="shape">
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #Fishes
+      -->
+
+      <section class="special-dish text-center" aria-labelledby="dish-label">
+
+        <div class="special-dish-banner">
+          <img src="./assets/images/special-dish-banner.jpeg" width="940" height="900" loading="lazy" alt="special dish"
+            class="img-cover">
+        </div>
+
+        <div class="special-dish-content bg-black-10">
+          <div class="container">
+
+            <img src="./assets/images/badge-1.jpeg" width="28" height="41" loading="lazy" alt="badge" class="abs-img">
+
+            <p class="section-subtitle label-2">Nos Poissons</p>
+
+            <h2 class="headline-1 section-title">Baracuda</h2>
+
+            <p class="section-text">
+              Lorem Ipsum is simply dummy text of the printingand typesetting industry lorem Ipsum has been the
+              industrys standard dummy text ever since the when an unknown printer took a galley of type.
+            </p>
+
+            <div class="wrapper">
+              <del class="del body-3">35.00 €</del>
+
+              <span class="span body-1">$22.50 €</span>
+            </div>
+
+            <a href="#" class="btn btn-primary">
+              <span class="text text-1">Voir le menu</span>
+
+              <span class="text text-2" aria-hidden="true">Voir le menu</span>
+            </a>
+
+          </div>
+        </div>
+
+        <img src="./assets/images/shape-4.webp" width="179" height="359" loading="lazy" alt="" class="shape shape-1">
+
+        <img src="./assets/images/shape-9.jpeg" width="351" height="462" loading="lazy" alt="" class="shape shape-2">
+
+      </section>
+
+
+
+
+
+      <!-- 
+        - #Le Menu
+      -->
+
+      <section class="section menu" aria-label="menu-label" id="menu">
+        <div class="container">
+
+          <p class="section-subtitle text-center label-2">Nos séléctions spéciales</p>
+
+          <h2 class="headline-1 section-title text-center">Menu Délicieux & Gourmand</h2>
+
+          <ul class="grid-list">
+
+            <li>
+              <div class="menu-card hover:card">
+
+                <figure class="card-banner img-holder" style="--width: 50; --height: 50;">
+                  <img src="./assets/images/menu-1.jpeg" width="50" height="50" loading="lazy" alt="Salade d'Écosse"
+                    class="img-cover">
+                </figure>
+
+                <div>
+
+                  <div class="title-wrapper">
+                    <h3 class="title-3">
+                      <a href="#" class="card-title">Salade d'Écosse</a>
+                    </h3>
+
+                    <span class="badge label-1">Saisonnier</span>
+
+                    <span class="span title-2">25.50 €</span>
+                  </div>
+
+                  <p class="card-text label-1">
+                    Tomates, poivron, concombres tranchés, oignon, olives, fromage.
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="menu-card hover:card">
+
+
+                <figure class="card-banner img-holder" style="--width: 50; --height: 50;">
+                  <img src="./assets/images/menu-2.jpeg" width="50" height="50" loading="lazy" alt="Des Lasagnes"
+                    class="img-cover">
+                </figure>
+
+                <div>
+
+                  <div class="title-wrapper">
+                    <h3 class="title-3">
+                      <a href="#" class="card-title">Des Lasagnes</a>
+                    </h3>
+
+                    <span class="span title-2">35.00 €</span>
+                  </div>
+
+                  <p class="card-text label-1">
+                    Légumes, tomates
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="menu-card hover:card">
+
+                <figure class="card-banner img-holder" style="--width: 50; --height: 50;">
+                  <img src="./assets/images/menu-3.jpeg" width="50" height="50" loading="lazy" alt="Des épinards hachées"
+                    class="img-cover">
+                </figure>
+
+                <div>
+
+                  <div class="title-wrapper">
+                    <h3 class="title-3">
+                      <a href="#" class="card-title">Des épinards hachées</a>
+                    </h3>
+
+                    <span class="span title-2">08.20 €</span>
+                  </div>
+
+                  <p class="card-text label-1">
+                    Typesetting industry lorem Lorem Ipsum is simply dummy text of the priand.
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="menu-card hover:card">
+
+
+                <figure class="card-banner img-holder" style="--width: 50; --height: 50;">
+                  <img src="./assets/images/menu-4.png" width="100" height="100" loading="lazy" alt="Des suchis du Japon"
+                    class="img-cover">
+                </figure>
+
+                <div>
+
+                  <div class="title-wrapper">
+                    <h3 class="title-3">
+                      <a href="#" class="card-title">Des suchis du Japon</a>
+                    </h3>
+
+                    <span class="badge label-1">Nouveauté</span>
+
+                    <span class="span title-2">32.00 €</span>
+                  </div>
+
+                  <p class="card-text label-1">
+                    Légumes, sauce tomate, fromages.
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="menu-card hover:card">
+
+                <figure class="card-banner img-holder" style="--width: 50; --height: 50;">
+                  <img src="./assets/images/menu-5.jpeg" width="50" height="50" loading="lazy" alt="Viande de boeuf"
+                    class="img-cover">
+                </figure>
+
+                <div>
+
+                  <div class="title-wrapper">
+                    <h3 class="title-3">
+                      <a href="#" class="card-title">Viande de boeuf</a>
+                    </h3>
+
+                    <span class="span title-2">22.30 €</span>
+                  </div>
+
+                  <p class="card-text label-1">
+                    Sauce tomate, légumes, concombre.
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="menu-card hover:card">
+
+                <figure class="card-banner img-holder" style="--width: 50; --height: 50;">
+                  <img src="./assets/images/menu-6.jpeg" width="50" height="50" loading="lazy" alt="Saumon fumé"
+                    class="img-cover">
+                </figure>
+
+                <div>
+
+                  <div class="title-wrapper">
+                    <h3 class="title-3">
+                      <a href="#" class="card-title">Saumon fumé</a>
+                    </h3>
+
+                    <span class="span title-2">29.00 €</span>
+                  </div>
+
+                  <p class="card-text label-1">
+                    Légumes, tomates, patatas douces, concombres.
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+          <p class="menu-text text-center">
+            Pendant l'hiver de <span class="span">7:00 pm</span> to <span class="span">9:00 pm</span>
+          </p>
+
+          <a href="#" class="btn btn-primary">
+            <span class="text text-1">Voir Tout Le Menu</span>
+
+            <span class="text text-2" aria-hidden="true">Voir Tout Le Menu</span>
+          </a>
+
+          <img src="./assets/images/shape-52.png" width="246" height="412" loading="lazy" alt="shape"
+            class="shape shape-2 move-anim">
+          <img src="./assets/images/shape-62.png" width="246" height="345" loading="lazy" alt="shape"
+            class="shape shape-3 move-anim">
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #Testimonial
+      -->
+
+      <section class="section testi text-center has-bg-image"
+        style="background-image: url('./assets/images/testimonial-bg.jpeg')" aria-label="testimonials">
+        <div class="container">
+
+          <div class="quote">”</div>
+
+          <p class="headline-2 testi-text">
+            Je voulais vous remercier pour cet agréable moment, la nourriture est vraiment délicieuse.
+          </p>
+
+          <div class="wrapper">
+            <div class="separator"></div>
+            <div class="separator"></div>
+            <div class="separator"></div>
+          </div>
+
+          <div class="profile">
+            <img src="./assets/images/testi-avatar.webp" width="100" height="100" loading="lazy" alt="Romane Julien"
+              class="img">
+
+            <p class="label-2 profile-name">Romane Julien</p>
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #Requests
+      -->
+
+      <section class="reservation">
+        <div class="container">
+
+          <div class="form reservation-form bg-black-10">
+
+            <form action="BookingResult.php" method="post"  class="form-left">
+
+              <h2 class="headline-1 text-center">Réservations</h2>
+
+              <p class="form-text text-center">
+                Demande de réservation <a href="tel:+33234567890" class="link">+33 234567890</a>
+                ou remplissez le formulaire commande
+              </p>
+
+              <div class="input-wrapper">
+                <input type="text" name="name" placeholder="Your Name" autocomplete="off" class="input-field">
+
+                <input type="email" name="email" placeholder="Your email address" autocomplete="off" class="input-field">
+              </div>
+
+              <div class="input-wrapper">
+
+                <div class="icon-wrapper">
+                  <ion-icon name="person-outline" aria-hidden="true"></ion-icon>
+
+                  <select name="guests" class="input-field">
+                    <option value="1-personnes">1 Personne</option>
+                    <option value="2-personnes">2 Personnes</option>
+                    <option value="3-personnes">3 Personnes</option>
+                    <option value="4-personnes">4 Personnes</option>
+                    <option value="5-personnes">5 Personnes</option>
+                    <option value="6-personnes">6 Personnes</option>
+                    <option value="7-personnes">7 Personnes</option>
+                  </select>
+
+                  <ion-icon name="chevron-down" aria-hidden="true"></ion-icon>
+                </div>
+
+                <div class="icon-wrapper">
+                  <ion-icon name="calendar-clear-outline" aria-hidden="true"></ion-icon>
+
+                  <!--input type="date" name="date" class="input-field"-->
+                  <label for="date">Date :</label>
+        <input type="date" id="date" name="date" class="input-field"min="<?= date('Y-m-d') ?>" required>
+
+                  <ion-icon name="chevron-down" aria-hidden="true"></ion-icon>
+                </div>
+
+                <div class="icon-wrapper">
+                  <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
+
+                  <label for="time">Time: </label>    <!--Time-->
+      
+        <!--input type="time" name="time" class="input-field" id="time" placeholder="Heure" size="35" maxlength="100" min="09:00" max="22:40" step="1800"/-->
+                  <select name="time" class="input-field">
+                    <option value="11:30am">11 : 30 am</option>
+                    <option value="11:45am">11 : 45 am</option>
+                    <option value="12:00am">12 : 00 am</option>
+                    <option value="12:15am">12 : 15 am</option>
+                    <option value="012:30am">12 : 30 am</option>
+                    <option value="012:45am">12 : 45 am</option>
+                    <option value="01:00pm">01 : 00 pm</option>
+                    <option value="01:30pm">01 : 30 pm</option>
+                    <option value="07:00pm">07 : 00 pm</option>
+                    <option value="07:15pm">07 : 15 pm</option>
+                    <option value="07:30pm">07 : 30 pm</option>
+                    <option value="07:45pm">07 : 45 pm</option>
+                    <option value="08:00pm">08 : 00 pm</option>
+                    <option value="08:15pm">08 : 15 pm</option>
+                    <option value="08:30pm">08 : 30 pm</option>
+                    <option value="08:45pm">08 : 45 pm</option>
+                    <option value="09:00pm">09 : 00 pm</option>
+                    <option value="09:15pm">09 : 15 pm</option>
+                    <option value="09:30pm">09 : 30 pm</option>
+                    <option value="09:45pm">09 : 45 pm</option>
+                    <option value="10:00pm">10 : 00 pm</option>
+                    <option value="10:15pm">10 : 15 pm</option>
+                    <option value="10:30pm">10 : 30 pm</option>
+                    <option value="10:40pm">10 : 40 pm</option>
+                  </select>
+
+                  <ion-icon name="chevron-down" aria-hidden="true"></ion-icon>
+                </div>
+
+              </div>
+
+              <!--textarea name="message" placeholder="Message" autocomplete="off" class="input-field"></textarea-->
+
+              <button type="submit" class="btn btn-secondary">
+                <span class="text text-1">Réserver une table</span>
+
+                <span class="text text-2" aria-hidden="true">Réserver une table</span>
+              </button>
+
+            </form>
+
+            <div class="form-right text-center" style="background-image: url('./assets/images/form-pattern.png')">
+
+              <h2 class="headline-1 text-center">Contactez-nous</h2>
+
+              <p class="contact-label">Demande de réservation</p>
+
+              <a href="tel:+234567890" class="body-1 contact-number hover-underline">+33 234567890</a>
+
+              <div class="separator"></div>
+
+              <p class="contact-label">Location</p>
+
+              <address class="body-4">
+                Henry Food Restaurant, <br>
+                17 Rue Laplace, Paris 75005, France, FRANCE
+              </address>
+
+              <p class="contact-label">L'heure du déjeuner</p>
+
+              <p class="body-4">
+                Du Lundi au Dimanche <br>
+                11.30 am - 01.30pm
+              </p>
+
+              <p class="contact-label">L'heure du dîner</p>
+
+              <p class="body-4">
+                Du Lundi au Dimanche <br>
+                07.00 pm - 11.00pm
+              </p>
+
+            </div>
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #Les Caractéristiques
+      -->
+
+      <section class="section features text-center" aria-label="features">
+        <div class="container">
+
+          <p class="section-subtitle label-2">Pourquoi nous ?</p>
+
+          <h2 class="headline-1 section-title">Notre courage</h2>
+
+          <ul class="grid-list">
+
+            <li class="feature-item">
+              <div class="feature-card">
+
+                <div class="card-icon">
+                  <img src="./assets/images/Features icon 1.png" width="100" height="80" loading="lazy" alt="icon">
+                </div>
+
+                <h3 class="title-2 card-title">De la nourriture hygiénique</h3>
+                <p class="label-1 card-text">Lorem Ipsum is simply dummy printing and typesetting.</p>
+
+              </div>
+            </li>
+
+            <li class="feature-item">
+              <div class="feature-card">
+
+                <div class="card-icon">
+                  <img src="./assets/images/Feature icon 2.png" width="100" height="80" loading="lazy" alt="icon">
+                </div>
+
+                <h3 class="title-2 card-title">Un environnement bien entretenu</h3>
+
+                <p class="label-1 card-text">Lorem Ipsum is simply dummy printing and typesetting.</p>
+
+              </div>
+            </li>
+
+            <li class="feature-item">
+              <div class="feature-card">
+
+                <div class="card-icon">
+                  <img src="./assets/images/Feature icon 3.png" width="100" height="80" loading="lazy" alt="icon">
+                </div>
+
+                <h3 class="title-2 card-title">Des cuisiniers talenteux</h3>
+
+                <p class="label-1 card-text">Lorem Ipsum is simply dummy printing and typesetting.</p>
+
+              </div>
+            </li>
+
+            <li class="feature-item">
+              <div class="feature-card">
+
+                <div class="card-icon">
+                  <img src="./assets/images/Feature icon 4.png" width="100" height="80" loading="lazy" alt="icon">
+                </div>
+
+                <h3 class="title-2 card-title">Evenement & Fetes</h3>
+
+                <p class="label-1 card-text">Lorem Ipsum is simply dummy printing and typesetting.</p>
+
+              </div>
+            </li>
+
+          </ul>
+
+          <img src="./assets/images/shape-7.jpeg" width="208" height="178" loading="lazy" alt="shape"
+            class="shape shape-1">
+
+          <img src="./assets/images/shape-8.jpeg" width="120" height="115" loading="lazy" alt="shape"
+            class="shape shape-2">
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #Les évenemnets
+      -->
+
+      <section class="section event bg-black-10" aria-label="event">
+        <div class="container">
+
+          <p class="section-subtitle label-2 text-center">Dernières mises à jour</p>
+
+          <h2 class="section-title headline-1 text-center">Prochains évenements</h2>
+
+          <ul class="grid-list">
+
+            <li>
+              <div class="event-card has-before hover:shine">
+
+                <div class="card-banner img-holder" style="--width: 350; --height: 450;">
+                  <img src="./assets/images/event-1.jpeg" width="350" height="450" loading="lazy"
+                    alt="Flavour so good you’ll try to eat with your eyes." class="img-cover">
+
+                  <time class="publish-date label-2" datetime="2022-09-15">15/04/2023</time>
+                </div>
+
+                <div class="card-content">
+                  <p class="card-subtitle label-2 text-center">Nourriture, Saveur</p>
+
+                  <h3 class="card-title title-2 text-center">
+                    Rien qu'en voyant vous aurez l'eau à la bouche.
+                  </h3>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="event-card has-before hover:shine">
+
+                <div class="card-banner img-holder" style="--width: 350; --height: 450;">
+                  <img src="./assets/images/event-2.jpeg" width="350" height="450" loading="lazy"
+                    alt="Flavour so good you’ll try to eat with your eyes." class="img-cover">
+
+                  <time class="publish-date label-2" datetime="2022-09-08">08/04/2023</time>
+                </div>
+
+                <div class="card-content">
+                  <p class="card-subtitle label-2 text-center">Nourriture saine</p>
+
+                  <h3 class="card-title title-2 text-center">
+                    Rien qu'en voyant vous aurez l'eau à la bouche.
+                  </h3>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="event-card has-before hover:shine">
+
+                <div class="card-banner img-holder" style="--width: 350; --height: 450;">
+                  <img src="./assets/images/event-3.jpeg" width="350" height="450" loading="lazy"
+                    alt="Flavour so good you’ll try to eat with your eyes." class="img-cover">
+
+                  <time class="publish-date label-2" datetime="2022-09-03">06/04/2023</time>
+                </div>
+
+                <div class="card-content">
+                  <p class="card-subtitle label-2 text-center">Recettes</p>
+
+                  <h3 class="card-title title-2 text-center">
+                    Rien qu'en voyant vous aurez l'eau à la bouche.
+                  </h3>
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+          <!--a href="#" class="btn btn-primary">
+            <span class="text text-1">Notre Blog</span>
+
+            <span class="text text-2" aria-hidden="true">Notre Blogue</span>
+          </a-->
+
+        </div>
+      </section>
+
+    </article>
+  </main>
+
+
+
+
+
+  <!-- 
+    - #The Footer
+  -->
+
+  <footer class="footer section has-bg-image text-center"
+    style="background-image: url('./assets/images/footer-bg.webp')">
+    <div class="container">
+
+      <div class="footer-top grid-list">
+
+        <div class="footer-brand has-before has-after">
+
+          <a href="#" class="logo">
+            <img src="./assets/images/LogoHryRestaurant.png" width="160" height="50" loading="lazy" alt="grilli home">
+          </a>
+
+          <address class="body-4">
+            Henry Food restaurant, 17 Rue Laplace, Paris 75005, France, France
+          </address>
+
+          <a href="mailto:booking@grilli.com" class="body-4 contact-link">HryRestaurant@food.com</a>
+
+          <a href="tel:+3323456789" class="body-4 contact-link">Demande de réservation : +33 234567890</a>
+
+          <p class="body-4">
+            Ouvert : 11:30 am - 01:30 pm & 07:00pm - 11:00pm
+          </p>
+
+          <div class="wrapper">
+            <div class="separator"></div>
+            <div class="separator"></div>
+            <div class="separator"></div>
+          </div>
+
+          <!--p class="title-1">Get News & Offers</p>
+
+          <p class="label-1">
+            Abonnez-vous & obtenez <span class="span">25% de réduction.</span>
+          </p>
+
+          <form action="" class="input-wrapper">
+            <div class="icon-wrapper">
+              <ion-icon name="mail-outline" aria-hidden="true"></ion-icon>
+
+              <input type="email" name="email_address" placeholder="Your email" autocomplete="off" class="input-field">
+            </div>
+
+            <button type="submit" class="btn btn-secondary">
+              <span class="text text-1">Abonnez-vous</span>
+
+              <span class="text text-2" aria-hidden="true">Abonnez-vous</span>
+            </button>
+          </form>
+
+        </div-->
+
+        <ul class="footer-list">
+
+          <li>
+            <a href="#" class="label-2 footer-link hover-underline">Home</a>
+          </li>
+
+          <li>
+            <a href="#" class="label-2 footer-link hover-underline">Menus</a>
+          </li>
+
+          <li>
+            <a href="#" class="label-2 footer-link hover-underline">A propos de nous</a>
+          </li>
+
+          <li>
+            <a href="#" class="label-2 footer-link hover-underline">Nos Chefs</a>
+          </li>
+
+          <li>
+            <a href="#" class="label-2 footer-link hover-underline">Contact</a>
+          </li>
+
+        </ul>
+
+        <ul class="footer-list"> <br>
+
+          <li>
+            <!--a href="#" class="label-2 footer-link hover-underline">Google Map</a-->
+            <iframe id="Google map" style="padding-right: 0%;" 
+            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10502.287487649026!2d2.3472188!3d48.8473045!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x3882a53dca4c3d69!2sLa%20Table%20de%20Colette!5e0!3m2!1sfr!2sfr!4v1674835428795!5m2!1sfr!2sfr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </li>
+
+        </ul>
+
+      </div>
+
+      <div class="footer-bottom">
+
+        <p class="copyright">
+          &copy; 2023 Henry Food Restaurant. Tous droits réservés | Fabriqué par <span>HryCompany</span>
+        </p>
+
+      </div>
+
+    </div>
+  </footer>
+
+
+
+
+
+  <!-- 
+    - #BACK TO TOP
+  -->
+
+  <a href="#top" class="back-top-btn active" aria-label="back to top" data-back-top-btn>
+    <ion-icon name="chevron-up" aria-hidden="true"></ion-icon>
+  </a>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
